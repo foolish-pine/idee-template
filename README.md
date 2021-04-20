@@ -76,6 +76,9 @@ a:before {
 - ベースのルールとして[stylelint-prettier/recommended](https://github.com/prettier/stylelint-prettier)を使用する
 - プロパティの並び順は[stylelint-config-recess-order](https://github.com/stormwarning/stylelint-config-recess-order)を使用する
 
+
+<br>
+
 ## 使用が推奨されるVisual Studio Codeプラグイン
 任意だが、使用が推奨されるVisual Studio Codeプラグインを以下に挙げる。
 - [stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint)

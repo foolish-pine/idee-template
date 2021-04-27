@@ -100,5 +100,5 @@ a:before {
 
 ## 使用が推奨されるVisual Studio Codeプラグイン
 任意だが、使用が推奨されるVisual Studio Codeプラグインを以下に挙げる。
-- [stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint)
 - [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+- [stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint)

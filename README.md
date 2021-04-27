@@ -10,8 +10,12 @@
 <br>
 
 ## 設定ファイルについての説明
+### .vscodeディレクトリ
+Visual Studio Codeの設定ファイルを格納するディレクトリ。このディレクトリのファイルに記述した設定はプロジェクト内でのみ有効となる。個人の環境に応じて新規ファイルを追加してよい。**プロジェクトをGitで管理する場合、.vscodeディレクトリは追跡対象としない。**
+### .vscode/extensions.json
+プロジェクトにおけるVisual Studio Codeの推奨プラグインを記述したファイル。
 ### .vscode/settings.json
-Visual Studio Codeの設定ファイル。このファイルに記述した設定はこのディレクトリ内でのみ有効となる。個人の環境に応じて編集可。**プロジェクトをGit管理する場合、.vscodeディレクトリは追跡対象としない。**
+Visual Studio Codeの設定ファイル。個人の環境に応じて編集可。
 ### .gitignore
 Gitの追跡対象にしないファイル・ディレクトリを記述する。<br>
 node_modulesと.DS_Storeは追跡対象としない。必要に応じて追記可。

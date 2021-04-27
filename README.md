@@ -49,19 +49,27 @@ stylelintの設定ファイル。使用するルールについては後述。
 ### 文字コード
 UTF-8
 
+### コメント
+必要に応じてコメントを挿入する。<br>
+ただし、不要なコメントは削除する。なんらかの理由でコメントアウトしたコードを残す場合は、その理由もコメントで残しておく。
+
+<br>
+
+## HTML
+### フォーマッター
+- [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)を使用する
+
+
 <br>
 
 ## CSS
 特別な場合を除き、スタイルはSassで記述しCSSを直接編集しない
-
 ### [Sass](https://sass-lang.com/)
-
 - Sass構文ではなくSCSS構文で記述する
 - コンパイルの方法は任意とする（将来的にはタスクランナーに固定する）
 - フォルダ構造は任意とする
 
 ### リンター
-
 - [stylelint](https://stylelint.io/)を使用する
 - ベースのルールとして[stylelint-config-recommended-scss](https://github.com/kristerkari/stylelint-config-recommended-scss)を使用する
 - さらに以下のルールを追加する(***要検討***)
@@ -94,7 +102,6 @@ a:before {
 ```
 
 ### フォーマッター
-
 - [Prettier](https://prettier.io/)を使用する
 - ベースのルールとして[stylelint-prettier/recommended](https://github.com/prettier/stylelint-prettier)を使用する
 - プロパティの並び順は[stylelint-config-recess-order](https://github.com/stormwarning/stylelint-config-recess-order)を使用する

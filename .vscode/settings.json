@@ -2,6 +2,10 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.stylelint": true,
   },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
   "[css]": {
     "editor.formatOnSave": false
 	},

@@ -101,6 +101,14 @@ a:before {
 }
 ```
 
+["no-duplicate-dollar-variables": true](https://github.com/kristerkari/stylelint-scss/tree/master/src/rules/no-duplicate-dollar-variables)<br>
+変数宣言の重複を許容しない。
+```
+// 以下は許容されない
+$red: red;
+$red: blue;
+```
+
 ### フォーマッター
 - [Prettier](https://prettier.io/)を使用する
 - ベースのルールとして[stylelint-prettier/recommended](https://github.com/prettier/stylelint-prettier)を使用する

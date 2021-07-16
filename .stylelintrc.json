@@ -6,6 +6,7 @@
   ],
   "rules": {
     "no-descending-specificity": null,
-    "selector-pseudo-element-colon-notation": "double"
+    "selector-pseudo-element-colon-notation": "double",
+    "scss/no-duplicate-dollar-variables": true
   }
 }
